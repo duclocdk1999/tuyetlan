@@ -1,2 +1,11 @@
+## IDE files
 venv/
 .vscode/
+
+## django generated file
+__pycache__/
+migrations/
+
+## system file
+db.sqlite3
+.env
