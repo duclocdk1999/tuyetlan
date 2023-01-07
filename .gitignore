@@ -5,7 +5,12 @@ venv/
 ## django generated file
 __pycache__/
 migrations/
+static/
 
 ## system file
 db.sqlite3
 .env
+.gcloudignore
+noxfile_config.py
+main.py
+app.yaml
