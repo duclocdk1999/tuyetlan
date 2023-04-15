@@ -160,6 +160,12 @@ class MotorbikePart(models.Model):
         verbose_name = "Phụ tùng"
         verbose_name_plural = "Phụ tùng xe máy"
 
+        indexes = [
+            models.Index(fields=['barcode']),
+            models.Index(fields=['name_vn']),
+            models.Index(fields=['name_en'])
+        ]
+
         constraints = [
             models.CheckConstraint(
                 check=models.Q(price_import__lte=models.F('price_store')), 

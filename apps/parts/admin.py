@@ -8,14 +8,14 @@ from unidecode import unidecode
 class Category(admin.ModelAdmin):
     list_display = ['name_vn']
 
-    def has_delete_permission(self):
+    def has_delete_permission(self, *args, **kwargs):
         return False
 
 @admin.register(Company)
 class Company(admin.ModelAdmin):
     list_display = ['name_vn']
 
-    def has_delete_permission(self):
+    def has_delete_permission(self, *args, **kwargs):
         return False
 
 @admin.register(MotorbikePart)

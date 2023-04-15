@@ -1,0 +1,35 @@
+[
+    {
+        "model": "parts.MotorbikePart",
+        "pk": 1,
+        "fields": {
+            "barcode": "NhotPowerGa1L",
+            "name_vn": "nhớt castrol power ga 1l",
+            "name_en": "nhot castrol power ga 1l",
+            "description": "dùng cho xe tay ga",
+            "price_import": 110000,
+            "price_store": 115000,
+            "price_engineer": 120000,
+            "price_customer": 130000,
+            "category_id": 2,
+            "company_id": 2
+        }
+    },
+    {
+        "model": "parts.MotorbikePart",
+        "pk": 2,
+        "fields": {
+            "barcode": "Lop250ChengsinWave",
+            "name_vn": "lốp 250 chengsin gai wave",
+            "name_en": "lop 250 chengsin gai wave",
+            "description": "dùng cho xe wave",
+            "price_import": 210000,
+            "price_store": 215000,
+            "price_engineer": 220000,
+            "price_customer": 230000,
+            "category_id": 3,
+            "company_id": 3
+        }
+    }
+
+]

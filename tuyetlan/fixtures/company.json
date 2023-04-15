@@ -1,0 +1,42 @@
+[
+    {
+        "model": "parts.Company",
+        "pk": 1,
+        "fields": {
+            "name_vn": "khác",
+            "name_en": "khac"
+        }
+    },
+    {
+        "model": "parts.Company",
+        "pk": 2,
+        "fields": {
+            "name_vn": "yamaha",
+            "name_en": "yamaha"
+        }
+    },
+    {
+        "model": "parts.Company",
+        "pk": 3,
+        "fields": {
+            "name_vn": "honda",
+            "name_en": "honda"
+        }
+    },
+    {
+        "model": "parts.Company",
+        "pk": 4,
+        "fields": {
+            "name_vn": "th",
+            "name_en": "th"
+        }
+    },
+    {
+        "model": "parts.Company",
+        "pk": 5,
+        "fields": {
+            "name_vn": "chengsin",
+            "name_en": "chengsin"
+        }
+    }
+]

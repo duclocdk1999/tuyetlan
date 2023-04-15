@@ -10,7 +10,7 @@
     python manage.py migrate
 
 ### Initialize data for system
-    python manage.py loaddata tuyetlan/fixtures/initial_data
+    python3 manage.py loaddata tuyetlan/fixtures/category.json tuyetlan/fixtures/company.json tuyetlan/fixtures/parts.json
 
 ### Run the system
     python manage.py runserver

@@ -1,0 +1,50 @@
+[
+    {
+        "model": "parts.Category",
+        "pk": 1,
+        "fields": {
+            "name_vn": "linh kiện khác",
+            "name_en": "linh kien khac"
+        }
+    },
+    {
+        "model": "parts.Category",
+        "pk": 2,
+        "fields": {
+            "name_vn": "nhớt",
+            "name_en": "nhot"
+        }
+    },
+    {
+        "model": "parts.Category",
+        "pk": 3,
+        "fields": {
+            "name_vn": "lốp",
+            "name_en": "lop"
+        }
+    },
+    {
+        "model": "parts.Category",
+        "pk": 4,
+        "fields": {
+            "name_vn": "ruột",
+            "name_en": "ruot"
+        }
+    },    
+    {
+        "model": "parts.Category",
+        "pk": 5,
+        "fields": {
+            "name_vn": "niềng",
+            "name_en": "niềng"
+        }
+    },
+    {
+        "model": "parts.Category",
+        "pk": 6,
+        "fields": {
+            "name_vn": "nhông sên",
+            "name_en": "nhong sen"
+        }
+    }
+]
