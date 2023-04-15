@@ -30,6 +30,53 @@
             "category_id": 3,
             "company_id": 3
         }
+    },
+    {
+        "model": "parts.MotorbikePart",
+        "pk": 3,
+        "fields": {
+            "barcode": "Lop250ChengsinDream",
+            "name_vn": "lốp 250 chengsin gai dream",
+            "name_en": "lop 250 chengsin gai dream",
+            "description": "dùng cho xe dream",
+            "price_import": 210000,
+            "price_store": 215000,
+            "price_engineer": 220000,
+            "price_customer": 230000,
+            "category_id": 3,
+            "company_id": 3
+        }
+    },
+    {
+        "model": "parts.MotorbikePart",
+        "pk": 4,
+        "fields": {
+            "barcode": "AcquyDongNaiCao",
+            "name_vn": "bình cao đồng nai",
+            "name_en": "binh cao dong nai",
+            "description": "dùng cho xe Sirius, Wave...",
+            "price_import": 210000,
+            "price_store": 215000,
+            "price_engineer": 225000,
+            "price_customer": 270000,
+            "category_id": 1,
+            "company_id": 1
+        }
+    },
+    {
+        "model": "parts.MotorbikePart",
+        "pk": 5,
+        "fields": {
+            "barcode": "NhongSenYawakamaWave",
+            "name_vn": "nhông sên yawakama wave",
+            "name_en": "nhong sen yawakama wave",
+            "description": "dùng cho xe Wave, Future",
+            "price_import": 150000,
+            "price_store": 160000,
+            "price_engineer": 170000,
+            "price_customer": 200000,
+            "category_id": 6,
+            "company_id": 1
+        }
     }
-
 ]

@@ -51,10 +51,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'graphene_django',
     'apps.polls',
     'apps.parts',
     'apps.users',
-    'graphene_django'
 ]
 
 MIDDLEWARE = [
